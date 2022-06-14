@@ -64,6 +64,6 @@ Open `http://localhost:5000/` and type in message.
 | Directory | Description |
 | --- | --- |
 | notebooks/sentiment-analysis.ipynb | Notebook used for data analysis and training the model. |
-| api.py | Staring point of the app. Implements the API using flask. |
-| classifier.py | Loads the trained model and tokenizer. Used to perform predictions. |
-| model | Should contain the trained model downloaded from [this link](https://www.dropbox.com/s/6lqh70dkgwnvq4s/sentiment-analysis-model.zip?dl=0). |
+| src/api.py | Staring point of the app. Implements the API using flask. |
+| src/classifier.py | Loads the trained model and tokenizer. Used to perform predictions. |
+| src/model | Should contain the trained model downloaded from [this link](https://www.dropbox.com/s/6lqh70dkgwnvq4s/sentiment-analysis-model.zip?dl=0). |
