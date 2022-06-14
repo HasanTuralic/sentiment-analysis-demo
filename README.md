@@ -8,7 +8,7 @@ A simple demo of a sentiment analysis model. The model is a fine-tuned BertForSe
 2. Start virtual environment `venv\scripts\activate` (win) or `source venv/bin/activate` (unix, mac)
 3. Install dependencies `pip install -r requirements.txt`
 4. Download trained model [here](https://www.dropbox.com/s/6lqh70dkgwnvq4s/sentiment-analysis-model.zip?dl=0) and extract files to the  `model` directory.
-5. Run app `python api.py`
+5. Change directory `cd src` and run app `python api.py`
 
 ## :whale: Containerize using Docker
 
